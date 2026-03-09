@@ -1720,7 +1720,8 @@ class TECudaGraphHelper:
 
         # Flags to track CUDA Graph state:
         # - _capture_ran: Whether create_cudagraphs() has been called (used by training loop)
-        # - _graphs_created: Whether any graphs were actually created (may be False if no layers found)
+        # - _graphs_created: Whether any graphs were actually created (may be False if no
+        #   layers found)
         self._capture_ran = False
         self._graphs_created = False
 
